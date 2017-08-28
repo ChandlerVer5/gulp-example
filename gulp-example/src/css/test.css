@@ -1,0 +1,26 @@
+/**
+ * Description:
+ * Created Date: Wednesday, August 23rd 2017, 4:51:40 pm
+ * Author: chandlerver5
+ * -----
+ * Last Modified:
+ * Modified By:
+ * -----
+ * Copyright (c) 2017 Your Company
+ * ------------------------------------
+ * <<licensetext>>
+ */
+.class {
+  padding: 10px;
+ }
+  .class::before, .class::after {
+    content: " ";
+    display: table; }
+  .class::after {
+    clear: both; }
+
+.base, .foo {
+  color: red; }
+
+.bar {
+  padding: 12px; }

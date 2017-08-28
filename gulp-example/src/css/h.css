@@ -1,0 +1,144 @@
+@charset "UTF-8";
+/*中间主要*/
+.index-main dd {
+  float: left; }
+
+.index-main dd p {
+  color: #999; }
+
+.index-main {
+  width: 1190px;
+  margin: 0 auto; }
+
+.con-top h3 {
+  text-align: center;
+  font-size: 1.5em; }
+
+.con-top dd {
+  margin-left: 1.3em; }
+
+.c-dt1 {
+  text-align: center;
+  margin-bottom: 16px; }
+
+.c-dt1 p {
+  text-align: center;
+  font-size: 1.4em;
+  font-weight: normal; }
+
+.c-desc {
+  font-size: 1.2em;
+  width: 220px;
+  margin: 0 auto; }
+
+/*center section*/
+.con-cent {
+  width: 1166px;
+  margin: 34px auto; }
+
+.con-cent li {
+  float: left; }
+
+.cc-left .case-cate {
+  font-size: 1em; }
+
+.cc-left .c-desc p {
+  margin-bottom: -5px; }
+
+.cc-left-wrap li {
+  margin: 22px 17px 0 0; }
+
+.cc-left {
+  float: left;
+  width: 62.2%; }
+
+.cc-left-tit {
+  width: 705px; }
+
+#fadeul,
+#con-ul {
+  border-bottom: 1px #ccc solid; }
+
+#fadeul a,
+#con-ul a {
+  font-size: 2.2em;
+  display: inline-block;
+  width: 180px; }
+
+#fadeul li,
+#con-ul li {
+  margin: 0 auto;
+  width: 350px;
+  text-align: center; }
+
+#con-ul li {
+  margin: 0 auto;
+  width: 202px;
+  text-align: center; }
+
+#fadeul li.current a,
+#con-ul li.current a {
+  color: #c40000;
+  border-bottom: 4px #c40000 solid; }
+
+.cc-right {
+  float: right;
+  width: 35%; }
+
+.s-info {
+  height: 78px; }
+
+.s-info .c-desc {
+  width: 322px;
+  margin-top: -125px;
+  margin-bottom: 88px;
+  margin-left: 90px; }
+
+.s-info h3 {
+  font-size: 20px; }
+
+.s-info p {
+  color: #888;
+  margin-top: -6px; }
+
+.s-date {
+  float: left; }
+
+.s-year {
+  display: block;
+  font-size: 2em;
+  font-weight: bold; }
+
+.s-day {
+  color: #888;
+  font-size: 1.4em; }
+
+.s-right-d {
+  margin-top: 14px; }
+
+.i-line {
+  display: inline-block;
+  width: 20px;
+  height: 100px;
+  background: url(../image/post.png) no-repeat top -6px right; }
+
+/*bottom section*/
+.con-botm .c-desc {
+  width: 210px; }
+
+.con-botm h3 {
+  text-align: center;
+  font-size: 1.48em; }
+
+.con-botm dd {
+  margin-left: 1.5em; }
+
+.more-contact {
+  background-color: #fafafa;
+  height: 80px;
+  text-align: center;
+  margin-top: 18px; }
+
+.more-contact p {
+  font-size: 2em;
+  line-height: 80px; }
