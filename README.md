@@ -66,7 +66,7 @@ scripts项目配置各个指令:
 * 10、（可选）使用gulp-rev-collectorc插件对刚才生成带参数的img文件在css文件上进行替换，如common.jpg替换成common-asdf12.jpg。输出到目录
 
 ```js
-gulp.task(‘default‘,[‘clean:Build‘,‘copy‘,‘minifyjsmd5‘,‘minifycssmd5‘,‘minifyimgmd5‘,‘replacejs‘,‘replacecss‘,‘html‘,‘rev‘,‘revimg‘]);
+gulp.task('default',['clean:Build','copy','minifyjsmd5','minifycssmd5','minifyimgmd5','replacejs','replacecss','html','rev','revimg']);
 ```
 
 ## 默认任务2，输出的js和css文件不带参数
@@ -80,7 +80,7 @@ gulp.task(‘default‘,[‘clean:Build‘,‘copy‘,‘minifyjsmd5‘,‘minif
  * 7、再次在build目录上，将html进行common.css文件替换成build.min.css
 
 ```js
-gulp.task(‘default2‘, [‘clean:Build‘,‘copy‘,‘copyimg‘,‘minifyjs‘,‘minifycss‘,‘replacejs‘,‘replacecss‘,‘html‘]);
+gulp.task('default2', ['clean:Build','copy','copyimg','minifyjs','minifycss','replacejs','replacecss','html']);
 ```
 
 ## 开发使用默认任务，js和css不带参数，且不合并
@@ -94,5 +94,5 @@ gulp.task(‘default2‘, [‘clean:Build‘,‘copy‘,‘copyimg‘,‘minifyj
  * 7、再次在build目录上，将html进行common.css文件替换成build.css
 
 ```js
-gulp.task(‘defaultdev‘, [‘clean:Build‘,‘copy‘,‘copyimg‘,‘minifyjs‘,‘minifycss‘,‘replacejsdev‘,‘replacecssdev‘,‘html‘]);
+gulp.task('defaultdev', ['clean:Build','copy','copyimg','minifyjs','minifycss','replacejsdev','replacecssdev','html']);
 ```
