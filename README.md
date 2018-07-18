@@ -3,9 +3,9 @@
 # 功能
 略～
 
-# 配置文件
+# 配置文件
 gulp目录包含了所有任务，把每个任务进行了分割。配置文件是：`gulp/config/gulp.conf.js`。
-每个任务都油有详细的注释。
+每个任务都有详细的注释。
 
 ## 使用：
 `gulp build --env development|staging|production`
@@ -22,7 +22,7 @@ scripts项目配置各个指令:
 * 发布到测试环境: `npm deploy`
 * 发布到生产环境: `npm deployP`
 
-# 环境模式
+# 环境模式
 ## 编译（测试/dev环境） ##
 
     $ npm run build
@@ -33,7 +33,7 @@ scripts项目配置各个指令:
 
  ## 编译（生产环境） ##
 
-预发布和发布环境会对js混淆压缩，对css、html进行压缩，字符替换等处理
+预发布和发布环境会对js混淆压缩，对css、html进行压缩，字符替换等处理
 
      $ npm run buildP
 
